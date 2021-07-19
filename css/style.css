@@ -183,6 +183,7 @@ nav ul li{
 
 /* Footer */
 .footer{
+    display: inline-block;
     padding:50px 50px 50px 0;
     color:#f0f9ff;
     background-color:rgba(128, 128, 128, 0.63);
@@ -256,6 +257,7 @@ nav ul li{
 @media screen and (max-width:450px) {
     .name{
         display: block;
+        margin-left: 0;
     }
     .menuItem{
         width: 100%;
@@ -286,7 +288,25 @@ nav ul li{
         margin-left: 0;
         margin-bottom: 20px;
     }
-    .footer{
-        
+    .sec-fpara h1{
+        text-align: center;
+        margin-left: 0;
     }
+    .sec-fpara p{
+        padding: 30px 60px 40px 40px;
+    }
+    .check-btn{
+        margin: 10px 40px 40px 40px;
+    }
+    .footer .item{
+        text-align: center;
+    }
+    .text{
+        display: inline-block;
+        margin-left:20px;
+    }
+    .icon{
+        padding-right: 20px;
+    }
+    
 }
