@@ -2,12 +2,13 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Food</title>
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/menu.css">
 </head>
 <body>
     <div class="container">
@@ -18,9 +19,9 @@
                     <nav>
                         <ul>
                             <li class="name"><a href="">F<span style="color: #f66d40">OO</span>D</a></li>
-                            <li class="menuItem"><a href="index.html" class="active">Home</a></>
+                            <li class="menuItem"><a href="index.html">Home</a></>
                             <li class="menuItem"><a href="about.html">About</a></li>
-                            <li class="menuItem"><a href="menu.html">Menu</a></li>
+                            <li class="menuItem"><a href="menu.html" class="active">Menu</a></li>
                             <li class="menuItem"><a href="contact.html">Contact Us</a></li>
                         </ul>
                     </nav>
@@ -28,29 +29,9 @@
             </header>
         </div>
     </div>
-    <!-- Main -->
-    <div class="container main">
+    <div class="container menu">
         <div class="row">
-            <div class="col-6 foodP">
-                <h1 class="heading-one">Your Food Is <br>Waiting For You</h1>
-                <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime dolor, veniam praesentium dolorem voluptatibus beatae maiores et omnis, temporibus harum ex suscipit excepturi
-                </p>
-                <button class="btn menu-btn">Food Menu</button>
-                <button class="btn book-btn">Book a Table</button>
-            </div>
-            <div class="col-6 food-img">
-                <img src="img/img1.png" alt="">
-            </div>
-        </div>
-    </div>
-    <!-- top list food -->
-    <div class="container foodlist">
-        <div class="row">
-            <h1>Top List</h1>
-            <p>
-                All Our Best Plats in One Delicous Snap 
-            </p>
+            <h1>Our Menu</h1>
             <div class="col-4">
                 <div class="card">
                     <img src="./img/img2.png" alt="">
@@ -85,48 +66,73 @@
                 </div>
             </div>
         </div>
-    </div>
-    <!-- show food -->
-    <div class="container sec-main">
         <div class="row">
-            <div class="col-6 sec-fimg">
-                <img src="./img/img5.png" alt="">
+            <div class="col-4">
+                <div class="card">
+                    <img src="./img/img2.png" alt="">
+                    <i class="fas fa-star"></i><span>8.5</span>
+                    <h3>Garden Salad</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit sed facilis quas ut cum illum provident
+                    </p>
+                    <h3 style="display: inline-block; padding-right:80%;">10$</h3><i class="fas fa-plus-circle" style="font-size: 30px; color:#fe4a17;"></i>
+                </div>
             </div>
-            <div class="col-6 sec-fpara">
-                <h1>New Our Dish</h1>
-                <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam, perferendis pariatur doloremque eum impedit ullam aut ab, corporis magnam numquam optio quas similique, voluptas animi cum rerum dolorem labore officia. Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                </p>
-                <button class="btn check-btn">More Info</button>
+            <div class="col-4">
+                <div class="card">
+                    <img src="./img/img3.png" alt="">
+                    <i class="fas fa-star"></i><span>9.2</span>
+                    <h3>Pasta</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit sed facilis quas ut cum illum provident
+                    </p>
+                    <h3 style="display: inline-block; padding-right:80%;">20$</h3><i class="fas fa-plus-circle" style="font-size: 30px; color:#fe4a17;"></i>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="card">
+                    <img src="./img/img4.png" alt="">
+                    <i class="fas fa-star"></i><span>7.5</span>
+                    <h3>Spicy Noodle</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit sed facilis quas ut cum illum provident
+                    </p>
+                    <h3 style="display: inline-block; padding-right:80%;">15$</h3><i class="fas fa-plus-circle" style="font-size: 30px; color:#fe4a17;"></i>
+                </div>
             </div>
         </div>
-    </div>
-    <!-- service -->
-    <div class="container service">
         <div class="row">
-            <h1>Our Service</h1>
-            <div class="col-3">
-                <div class="ser-card">
-                    <center><i class="fas fa-mobile-alt"></i></center>
-                    <h5>Online Booking</h5>
+            <div class="col-4">
+                <div class="card">
+                    <img src="./img/img2.png" alt="">
+                    <i class="fas fa-star"></i><span>8.5</span>
+                    <h3>Garden Salad</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit sed facilis quas ut cum illum provident
+                    </p>
+                    <h3 style="display: inline-block; padding-right:80%;">10$</h3><i class="fas fa-plus-circle" style="font-size: 30px; color:#fe4a17;"></i>
                 </div>
             </div>
-            <div class="col-3">
-                <div class="ser-card">
-                    <center><i class="fas fa-concierge-bell"></i></center>
-                    <h5>Catering Service</h5>
+            <div class="col-4">
+                <div class="card">
+                    <img src="./img/img3.png" alt="">
+                    <i class="fas fa-star"></i><span>9.2</span>
+                    <h3>Pasta</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit sed facilis quas ut cum illum provident
+                    </p>
+                    <h3 style="display: inline-block; padding-right:80%;">20$</h3><i class="fas fa-plus-circle" style="font-size: 30px; color:#fe4a17;"></i>
                 </div>
             </div>
-            <div class="col-3">
-                <div class="ser-card">
-                    <center><i class="fas fa-users"></i></center>
-                    <h5>Membership</h5>
-                </div>
-            </div>
-            <div class="col-3">
-                <div class="ser-card">
-                    <center><i class="fas fa-truck"></i></center>
-                    <h5>Delivery Service</h5>
+            <div class="col-4">
+                <div class="card">
+                    <img src="./img/img4.png" alt="">
+                    <i class="fas fa-star"></i><span>7.5</span>
+                    <h3>Spicy Noodle</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit sed facilis quas ut cum illum provident
+                    </p>
+                    <h3 style="display: inline-block; padding-right:80%;">15$</h3><i class="fas fa-plus-circle" style="font-size: 30px; color:#fe4a17;"></i>
                 </div>
             </div>
         </div>

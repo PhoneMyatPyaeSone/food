@@ -47,57 +47,14 @@ nav ul li{
     padding-top: auto;
     padding-bottom: auto;
 }
-/*Main*/
-.main{
-    margin-top:150px ;
-}
 
-.heading-one{
-    margin: 0 auto 50px 100px;
-    text-align: justify;
-    font-size: 55px;
-    font-weight: 600;
-    word-spacing: 10px;
-    letter-spacing: 5px;
-}
-
-.foodP p{
-    text-align:justify;
-    margin-left:100px;
-    line-height:25px;
-}
-.btn{
-    color: #ffffff;
-    width: 150px;
-    height: 50px;
-    font-weight: bolder;
-    padding: 10px 15px;
-    border-radius: 50px;
-    margin-top: 50px;
-
-}
-.menu-btn{
-    background-color:#f1804d ;
-    border: 1px solid #f1804d;
-    margin-left: 100px;
-}
-.book-btn{
-    background-color:#adaf9a ;
-    border: 1px solid #adaf9a;
-    margin-left: 20px;
-}
-.food-img img{
-    display: block;
-    width: 100%;
-    margin: auto;
-}
-/* Top List Food */
-.foodlist h1{
+/*Menu*/
+.menu h1{
     text-align: center;
     font-size: 60px;
     font-weight: 400;
 }
-.foodlist p{
+.menu p{
     text-align: center;
     margin-top: 15px;
 }
@@ -130,57 +87,6 @@ nav ul li{
     margin-left: auto;
     margin-right: auto;
 }
-/* Show Food */
-.sec-main{
-    padding-bottom: 300px;
-}
-.sec-fimg img{
-    width: 100%;
-}
-.sec-fpara{
-    margin-top: 100px;
-}
-.sec-fpara h1{
-    font-size: 60px;
-    font-weight: 400;
-    margin-left:60px;
-}
-.sec-fpara p{
-    text-align:justify;
-    padding: 30px 60px 40px 60px;
-}
-.check-btn{
-    background-color:#f1804d ;
-    border: 1px solid #f1804d;
-    margin-left: 60px;
-}
-
-/*Service*/
-.service{
-    margin-top: 900px;
-    margin-bottom: 300px;
-}
-.service h1{
-    font-size: 50px;
-    font-weight: normal;
-    padding-top: 30px ;
-    padding-bottom: 40px ;
-    text-align: center;
-}
-.ser-card{
-    background-color: #fdfdfd3a;
-    border-radius: 50px;
-    margin: 30px 50px 20px 30px;
-    padding: 30px;
-}
-.ser-card i{
-    font-size: 80px;
-}
-.ser-card h5{
-    margin-top: 30px;
-    text-align: center;
-}
-
 /* Footer */
 .footer{
     display: inline-block;
@@ -235,11 +141,8 @@ nav ul li{
     margin-top: 20px;
 }
 
-/* For Desktop */
-.col-6{
-    width:50%;
-    float: left;
-}
+
+/*Col*/
 .col-4{
     width: 33.33%;
     float: left;
@@ -252,7 +155,6 @@ nav ul li{
     width: 100%;
     float: left;
 }
-/*Mobile*/
 
 @media screen and (max-width:450px) {
     .name{
@@ -272,34 +174,7 @@ nav ul li{
     .col-3{
         width: 100%;
     }
-    .heading-one{
-        margin: 20px 15px 20px 15px;
-        word-spacing: 5px;
-        letter-spacing: 3px;
-    }
-    .foodP p{
-        margin:15px;
-    }
-    .main{
-        margin-top: 30px;
-    }
-    .menu-btn,.book-btn{
-        display: inline-block;
-        margin-left: 0;
-        margin-bottom: 20px;
-    }
-    .sec-fpara h1{
-        text-align: center;
-        margin-left: 0;
-    }
-    .sec-fpara p{
-        padding: 30px 60px 40px 40px;
-    }
-    .check-btn{
-        margin: 10px 40px 40px 40px;
-    }
     .icon{
         padding-right: 20px;
     }
-    
 }
